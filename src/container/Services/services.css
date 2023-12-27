@@ -1,0 +1,39 @@
+.services {
+    margin-top: -20px;
+    padding: 40px;
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("../../assets/pexels-micotino-10033671.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.services-title {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.services-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.service {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: rgb(168,238,207);
+    background: linear-gradient(180deg, rgba(168,238,207,1) 0%, rgba(27,55,51,1) 100%);
+}
+.service-title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.service-description {
+    font-size: 14px;
+    color: #222222;
+}
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .services-container {
+        grid-template-columns: 1fr;
+    }
+}

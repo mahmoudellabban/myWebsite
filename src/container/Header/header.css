@@ -1,0 +1,195 @@
+.header {
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url("../../assets/pexels-micotino-10033671.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 6rem 0 6rem;
+}
+.navbar .links {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar .links .container{
+    display: flex;
+}
+
+.navbar .links .container a {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform:capitalize;
+    cursor: pointer;
+    margin: 0 1rem;
+    text-decoration: none;
+    --b: 0.1em;   /* the thickness of the line */
+    --c: #f8482f; /* the color */
+    color: #f2f2f2;
+    padding-block: var(--b);
+    background: 
+    linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+    linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+    -webkit-background-clip: text,padding-box;
+    background-clip: text,padding-box;
+    transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));
+}
+
+.navbar .links .container a:hover {
+    --_p: 100%;
+    --_s: .3s;
+    color: #f8482f;
+}
+.navbar .menu {
+    display: none;
+    margin-left: 1rem;
+    position: relative;
+}
+.navbar .menu .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: end;
+    padding: 1rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    width: auto;
+}
+.navbar .menu .container p {
+    margin: 1rem 0;
+}
+
+/* hero */
+.hero .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 100px;
+    color: #f8482f;
+}
+.hero .container h1 {
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 56px;
+    margin-bottom: 20px;
+}
+.hero .container p {
+    font-size: 26px;
+    font-weight: 500;
+}
+.hero .container .icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.hero .container .icons a {
+    color: #f1f1f1;
+}
+.hero .container .icons p {
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+}
+.hero .container .icons p:hover{
+    color: #f8482f;
+    transform: translateY(-5px);
+}
+.hero .container .icons a:hover {
+    color: #f8482f;
+    transform: translateY(-5px);
+}
+
+/*media quries*/
+@media (max-width:1024px) {
+    .hero .container h1 {
+        font-size: 50px;
+    }
+}
+@media (max-width: 768px) {
+    .navbar {
+    padding: 1rem 2rem 0 2rem;
+}
+    .hero .container h1 {
+        font-size: 35px;
+    }
+}
+@media (max-width:500px) {
+    .navbar .links .container{
+        display: none;
+    }
+    .navbar .menu {
+        display: flex;
+    }
+    .navbar .menu .container {
+        background-color: inherit;
+        top: -40px;
+        right:20px;
+    }
+    .navbar .menu .container .links {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    .navbar .menu .container .links a {
+        font-family: var(--font-family);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 25px;
+        text-transform:capitalize;
+        cursor: pointer;
+        margin: 0 1rem;
+        text-decoration: none;
+        --b: 0.1em;   /* the thickness of the line */
+        --c: #f8482f; /* the color */
+        color: #f1f1f1;
+        padding-block: var(--b);
+        background: 
+        linear-gradient(var(--c) 50%,#000 0) 0% calc(100% - var(--_p,0%))/100% 200%,
+        linear-gradient(var(--c) 0 0) 0% var(--_p,0%)/var(--_p,0%) var(--b) no-repeat;
+        -webkit-background-clip: text,padding-box;
+        background-clip: text,padding-box;
+        transition: .3s var(--_s,0s) linear,background-size .3s calc(.3s - var(--_s,0s));    
+    }
+    .navbar .menu .container .links a:hover {
+        --_p: 100%;
+        --_s: .3s;
+        color: #f8482f;        
+    }
+    .hero {
+        padding-top: 100px;
+    }
+    .hero .container {
+        margin-top: 130px;
+    }
+    .hero .container h1 {
+        font-size: 25px;
+    }
+    .hero .container p{
+        font-size: 19px;
+    }
+}
+@media (max-width: 350px) {
+        .hero .container h1 {
+        font-size: 20px;
+    }
+    .hero .container p{
+        font-size: 15px;
+    }
+}
+

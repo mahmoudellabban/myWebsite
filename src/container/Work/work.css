@@ -1,0 +1,94 @@
+.portfolio {
+  background-color: #222222;
+  padding: 40px;
+}
+#projects {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-content: center;
+  gap: 15px;
+}
+.project {
+  padding: 20px;
+  margin-bottom: 10px;
+  background: rgb(168,238,207);
+  background: linear-gradient(180deg, rgba(168,238,207,1) 0%, rgba(27,55,51,1) 100%);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+.project img {
+  width: 100%;
+  height: 210px;
+  border-radius: 8px;
+}
+.project h3 {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #222222;
+}
+.project p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: white;
+  height: 70px;
+}
+.project a {
+  text-decoration: none;
+  color: white;
+}
+#bottone5 {
+  align-items: center;
+  background-color: #222222;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: white;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: system-ui,-apple-system,system-ui,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  text-decoration: none;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: auto;
+}
+#bottone5:hover,
+#bottone5:focus {
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+  
+}
+#bottone5:hover {
+  transform: translateY(-5px);
+}
+#bottone5:active {
+  background-color: #F0F0F1;
+  border-color: rgba(0, 0, 0, 0.15);
+  box-shadow: rgba(0, 0, 0, 0.06) 0 2px 4px;
+  color: rgba(0, 0, 0, 0.65);
+  transform: translateY(0);
+}
+@media (max-width:768px) {
+  #projects {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 10px;
+  }
+  .project img {
+    width: 100%;
+    height: 150px;
+    border-radius: 8px;
+  }
+  .project p {
+    height: auto;
+  }
+}
