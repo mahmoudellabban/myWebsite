@@ -22,6 +22,14 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     background: rgb(168,238,207);
     background: linear-gradient(180deg, rgba(168,238,207,1) 0%, rgba(27,55,51,1) 100%);
+    transition: all 250ms;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: baseline;
+}
+.service:hover {
+    transform: translateY(-5px);
 }
 .service-title {
     font-size: 18px;

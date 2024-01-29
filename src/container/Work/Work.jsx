@@ -2,6 +2,7 @@ import React from "react";
 import "./work.css";
 import sae from "../../assets/sae.png";
 import gpt from "../../assets/gpt.png";
+import kafiil from "../../assets/kafiil.png"
 import cup from "../../assets/cup.png";
 import host from "../../assets/host.png";
 import kicks from "../../assets/kicks.png";
@@ -27,6 +28,12 @@ const Work = () => {
       headline: "Kicks",
       info: "E-commerce website for sport sneakers, using HTML, CSS and JavaScript",
       link: "https://mahmoudellabban.github.io/Kicks/",
+    },
+    {
+      image: kafiil,
+      headline: "Kafiil",
+      info: "Kafiil works to provide a professional and safe environment for interaction between entrepreneurs and freelancers, using HTMl, CSS and JavaScript",
+      link: "https://mahmoudellabban.github.io/kafiil/",
     },
     {
       image: cup,
