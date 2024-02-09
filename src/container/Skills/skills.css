@@ -5,6 +5,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
 }
 .intro {
   color: #f8f8f8;
@@ -45,6 +50,9 @@
 }
 /* Responsive Adjustments */
 @media (max-width: 768px) {
+  .skills-section {
+    height: 100%;
+  }
   .skills-container {
   display: flex;
   flex-wrap: wrap;
