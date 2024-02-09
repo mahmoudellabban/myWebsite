@@ -1,24 +1,25 @@
 {
   "files": {
-    "main.css": "/myWebsite/static/css/main.b82c3e98.css",
-    "main.js": "/myWebsite/static/js/main.99021a68.js",
+    "main.css": "/myWebsite/static/css/main.2c4b7686.css",
+    "main.js": "/myWebsite/static/js/main.17b27702.js",
     "static/media/cup.png": "/myWebsite/static/media/cup.989c0c7d12a9fa68d26b.png",
     "static/media/sae.png": "/myWebsite/static/media/sae.15f40cca6ccb7f213e96.png",
     "static/media/gpt.png": "/myWebsite/static/media/gpt.91c085cf1d3e6ce38a7e.png",
     "static/media/pexels-micotino-10033671.jpg": "/myWebsite/static/media/pexels-micotino-10033671.269462aaba90700f6040.jpg",
     "static/media/leon.png": "/myWebsite/static/media/leon.8847ad441d1694786efd.png",
     "static/media/kicks.png": "/myWebsite/static/media/kicks.d039054f64ffd4036097.png",
-    "static/media/mahmoud-ellabban-resume.pdf": "/myWebsite/static/media/mahmoud-ellabban-resume.ec0042a1bdbecbfd8c64.pdf",
+    "static/media/kafiil.png": "/myWebsite/static/media/kafiil.629814fa4211a4ca7636.png",
+    "static/media/Mahmoud-Ellabban.pdf": "/myWebsite/static/media/Mahmoud-Ellabban.b959b2a67aed10fb9f8f.pdf",
     "static/media/drums.png": "/myWebsite/static/media/drums.81307cbfa3a7990adf75.png",
     "static/media/about.jpg": "/myWebsite/static/media/about.22ad01e90ce5aab2af45.jpg",
     "static/media/host.png": "/myWebsite/static/media/host.d8b491b0ee445169f24a.png",
     "static/media/xo.png": "/myWebsite/static/media/xo.d0b8639ea39d877fc6b3.png",
     "index.html": "/myWebsite/index.html",
-    "main.b82c3e98.css.map": "/myWebsite/static/css/main.b82c3e98.css.map",
-    "main.99021a68.js.map": "/myWebsite/static/js/main.99021a68.js.map"
+    "main.2c4b7686.css.map": "/myWebsite/static/css/main.2c4b7686.css.map",
+    "main.17b27702.js.map": "/myWebsite/static/js/main.17b27702.js.map"
   },
   "entrypoints": [
-    "static/css/main.b82c3e98.css",
-    "static/js/main.99021a68.js"
+    "static/css/main.2c4b7686.css",
+    "static/js/main.17b27702.js"
   ]
 }
