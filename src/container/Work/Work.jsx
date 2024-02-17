@@ -3,6 +3,7 @@ import "./work.css";
 import sae from "../../assets/sae.png";
 import gpt from "../../assets/gpt.png";
 import kafiil from "../../assets/kafiil.png"
+import street from "../../assets/street.png"
 import cup from "../../assets/cup.png";
 import host from "../../assets/host.png";
 import kicks from "../../assets/kicks.png";
@@ -34,6 +35,12 @@ const Work = () => {
       headline: "Kafiil",
       info: "Kafiil works to provide a professional and safe environment for interaction between entrepreneurs and freelancers, using HTMl, CSS and JavaScript",
       link: "https://mahmoudellabban.github.io/kafiil/",
+    },
+    {
+      image: street,
+      headline: "Street Suite",
+      info: "Our goal is to empower you with valuable information that can guide your investment decisions intelligently, using React",
+      link: "https://mahmoudellabban.github.io/street-suite/"
     },
     {
       image: cup,
