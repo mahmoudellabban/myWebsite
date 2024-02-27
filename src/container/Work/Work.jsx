@@ -1,6 +1,7 @@
 import React from "react";
 import "./work.css";
 import sae from "../../assets/sae.png";
+import swift from "../../assets/swift.png"
 import gpt from "../../assets/gpt.png";
 import kafiil from "../../assets/kafiil.png"
 import street from "../../assets/street.png"
@@ -17,6 +18,12 @@ const Work = () => {
       headline: "SAE-GRAD",
       info: "A website for School Of Architecture in Egypt, It's basically an organization which provides courses for architerctures inside and outside Egypt. Using React.",
       link: "https://sae-grad.com/",
+    },
+    {
+      image: swift,
+      headline: "SwiftCart",
+      info: "An innovative e-commerce website designed and developed entirely by me using React.js, Redux, React Router Dom, React Loading Skeleton and React Icons.",
+      link: "https://mahmoudellabban.github.io/SwiftCart/",
     },
     {
       image: gpt,
@@ -89,7 +96,7 @@ const Work = () => {
         <div id="projects">
           {projects.map((project, index) => (
             <div key={index} className="project">
-              <img src={project.image} alt={project.headline} />
+              <img src={project.image} alt={project.headline} loading="lazy" />
               <h3>{project.headline}</h3>
               <p>{project.info}</p>
               <button id="bottone5">
