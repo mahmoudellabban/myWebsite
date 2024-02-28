@@ -1,7 +1,7 @@
 import React from "react";
 import "./about.css";
 import about from "../../assets/about.jpg";
-import pdfPath from "../../assets/Mahmoud-Ellabban.pdf";
+import pdfPath from "../../assets/Mahmoud Ellabban.pdf";
 
 const About = () => {
   const handleDownload = () => {
