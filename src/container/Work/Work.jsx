@@ -2,6 +2,7 @@ import React from "react";
 import "./work.css";
 import sae from "../../assets/sae.png";
 import swift from "../../assets/swift.png"
+import homeland from "../../assets/homeland.png"
 import gpt from "../../assets/gpt.png";
 import kafiil from "../../assets/kafiil.png"
 import street from "../../assets/street.png"
@@ -24,6 +25,12 @@ const Work = () => {
       headline: "SwiftCart",
       info: "An innovative e-commerce website designed and developed entirely by me using React.js, Redux, React Router Dom, React Loading Skeleton and React Icons.",
       link: "https://mahmoudellabban.github.io/SwiftCart/",
+    },
+    {
+      image: homeland,
+      headline: "HomeLand",
+      info: "A website for real estate agency called HomeLand, using React and Tailwind.",
+      link: "https://mahmoudellabban.github.io/Home-Land/",
     },
     {
       image: gpt,

@@ -23,10 +23,6 @@
     background: rgb(168,238,207);
     background: linear-gradient(180deg, rgba(168,238,207,1) 0%, rgba(27,55,51,1) 100%);
     transition: all 250ms;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    vertical-align: baseline;
 }
 .service:hover {
     transform: translateY(-5px);
